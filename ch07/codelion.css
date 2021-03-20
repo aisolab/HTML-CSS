@@ -1,0 +1,29 @@
+.name-text {
+    font-size: 17px;
+    color: #7c7c7c;
+    font-weight: bold;
+}
+
+.mainbox {
+    width: 610px;
+    padding: 30px;
+    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #ebebeb;
+    box-shadow: 0px 1px 20px 0px rgba(255, 192, 203, 1);
+    /* width: 가로축그림자 0이면 없음, 양수면 오른쪽, 음수면 왼쪽,
+       height: 세로축으로 그림자
+       blur: 그림자 불투명도 (흐림정도)
+       spread: 그림자 퍼짐의 정도
+       color: 그림자의 색깔 (red, green, blue, transparent)
+    */
+}
+
+footer {
+    text-align: center;
+    background-color: #1e1e1e;
+    padding: 20px; /*박스 안쪽과 콘텐츠 사이가 pdding*/
+    font-size: 12px;
+    color:#919191;
+}
